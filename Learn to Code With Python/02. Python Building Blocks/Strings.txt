@@ -1,0 +1,20 @@
+>>> "Hello"
+'Hello'
+>>> 'Don\'t'
+"Don't"
+>>> '"Hello there," I said'
+'"Hello there," I said'
+>>> quote = '"Hello there," I said'
+>>> quote
+'"Hello there," I said'
+>>> print(quote)
+"Hello there," I said
+>>> first = "Derek"
+>>> last = "Jensen"
+>>> fists + last
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    fists + last
+NameError: name 'fists' is not defined
+>>> first + last
+'DerekJensen'

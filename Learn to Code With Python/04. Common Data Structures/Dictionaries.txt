@@ -1,0 +1,26 @@
+>>> ages = {}
+>>> ages
+{}
+>>> ages['Jon'] = 25
+>>> ages
+{'Jon': 25}
+>>> ages['Daniel'] = 30
+>>> ages
+{'Jon': 25, 'Daniel': 30}
+>>> ages['Jon'] = 26
+>>> ages
+{'Jon': 26, 'Daniel': 30}
+>>> ages.keys()
+dict_keys(['Jon', 'Daniel'])
+>>> list(ages.keys())
+['Jon', 'Daniel']
+>>> ages.values()
+dict_values([26, 30])
+>>> list(ages.values())
+[26, 30]
+>>> 'Derek' in ages
+False
+>>> new_ages = dict(Derek=30, Kati=29, Brian=5)
+>>> new_ages
+{'Derek': 30, 'Kati': 29, 'Brian': 5}
+>>>
